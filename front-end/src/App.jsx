@@ -4,7 +4,7 @@ import ContactList from './components/ContactList';
 import ContactForm from './components/ContactForm';
 import Notification from './components/Notification';
 
-const API_URL = 'http://localhost:3000/contacts'; 
+const API_URL = 'https://contact-manager-nxtwave.onrender.com/contacts'; 
 
 const App = () => {
   const [contacts, setContacts] = useState([]);
